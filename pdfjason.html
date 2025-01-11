@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="Ptbr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convesor de PDF para Json</title>
+    <link rel="stylesheet" href="export_files.css">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="title"> Conversor de PDF para Base64</div>
+
+      <input type="file" id="fileInput" accept=".pdf">
+
+      <button class="to_send" onclick="handleFile()">Enviar</button>
+      
+      <div>
+        <h3>Base64 do Arquivo:</h3>
+        <div class="base64_Element">
+          <div class="base64_Output"></div>
+        </div>
+      </div>
+
+    </div>
+      
+    <script src="export_files.js"></script>
+
+  </body>
+</html>

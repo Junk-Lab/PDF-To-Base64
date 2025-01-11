@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: rgb(85, 85, 85);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(194, 5, 5);
+    height: 50rem;
+    width: 50rem;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(212, 207, 207);
+    display: flex;
+    justify-self: center;
+    margin: 2rem;
+}
+
+#fileInput {
+    margin: 0rem 0rem 0rem 4rem;
+    border-radius: 0.5rem;
+    background-color:  rgb(212, 207, 207);
+    width: 38rem;
+    height: 1.2rem;
+}
+
+.to_send {
+    border-radius: 0.5rem;
+    background-color:  rgb(212, 207, 207);
+    border: none;
+    cursor: pointer;
+    height: 1.2rem;
+}
+
+h3 {
+    margin: 1rem 0rem 0.2rem 4rem;
+}
+
+.base64_Element {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    justify-self: center;
+    font-size: 1rem;
+    width: 80%;
+    height: 38rem;
+    background-color: rgb(212, 207, 207);
+    border-radius: 0.5rem; 
+}
+
+.base64_Output {
+    margin: 0; 
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    overflow-y:  auto;
+    overflow-x:  hidden;
+    width: 100%; 
+    height: calc(100% - 2rem); 
+    background-color:  rgb(212, 207, 207);
+    border-radius: 0.5rem; 
+}
+
+/* Manipula o scrollbar da pagina  */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: rgb(212, 207, 207);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(85, 85, 85);
+    border-radius: 10px;
+  }
