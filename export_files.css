@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(85, 85, 85);
+    background-color: #0D1117;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -8,16 +8,19 @@ body {
 }
 
 .container {
-    background-color: rgb(194, 5, 5);
+    background-color: #0D1117;
     height: 50rem;
     width: 50rem;
     border-radius: 1rem;
     outline: none;
+    backdrop-filter: blur(30px);
+    background-color: rgba(65, 65, 65, 0.308);
+    border: 1px solid rgba(255, 255, 255, 0.089);
 }
 
 .title {
     font-size: 2rem;
-    color: rgb(212, 207, 207);
+    color: #ffffff;
     display: flex;
     justify-self: center;
     margin: 2rem;
@@ -26,21 +29,32 @@ body {
 #fileInput {
     margin: 0rem 0rem 0rem 4rem;
     border-radius: 0.5rem;
+    border: none;
     background-color:  rgb(212, 207, 207);
-    width: 38rem;
-    height: 1.2rem;
+    width: 35rem;
+    height: 2rem;
+}
+
+::-webkit-file-upload-button{
+    height: 2rem;
+    border: none;
+    color: #ffffff;
+    background-color: #006D32;
 }
 
 .to_send {
     border-radius: 0.5rem;
-    background-color:  rgb(212, 207, 207);
+    background-color: #39D353;
     border: none;
     cursor: pointer;
-    height: 1.2rem;
+    width: 6rem;
+    height: 2rem;
+    color: #ffffff;
 }
 
 h3 {
     margin: 1rem 0rem 0.2rem 4rem;
+    color: #ffffff;
 }
 
 .base64_Element {
@@ -70,7 +84,7 @@ h3 {
 
 /* Manipula o scrollbar da pagina  */
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 1rem;
   }
 
   ::-webkit-scrollbar-track {
@@ -79,5 +93,5 @@ h3 {
 
   ::-webkit-scrollbar-thumb {
     background: rgb(85, 85, 85);
-    border-radius: 10px;
+    border-radius: 0.7rem;
   }
